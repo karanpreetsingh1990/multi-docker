@@ -20,4 +20,3 @@ after_success:
   - docker push karanpreetsingh1990/multi-nginx
   - docker push karanpreetsingh1990/multi-server
   - docker push karanpreetsingh1990/multi-worker
-  
