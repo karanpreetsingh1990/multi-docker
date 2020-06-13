@@ -10,7 +10,7 @@ script:
 
 after_success:
   - docker build -t karanpreetsingh1990/multi-client ./client
-  - docker build -t karanrpeetsingh1990/multi-nginx ./nginx
+  - docker build -t karanpreetsingh1990/multi-nginx ./nginx
   - docker build -t karanpreetsingh1990/multi-server ./server
   - docker build -t karanpreetsingh1990/multi-worker ./worker
   # log into docker cli
